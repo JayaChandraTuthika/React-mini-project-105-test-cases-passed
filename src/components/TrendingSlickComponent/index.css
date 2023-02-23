@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap');
+* {
+  /* border: 1px solid blue; */
+  font-family: 'roboto';
+}
+.home-bg-container {
+  min-height: 100vh;
+  padding: 0%;
+  padding-bottom: 15%;
+  background-color: #181818;
+}
+.slick-loader-container {
+  background-color: #0d0d0d;
+  height: 265px;
+  display: flex;
+  justify-content: center;
+  margin: 40px 10%;
+}
+.slick-movies-category-heading {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-left: 6%;
+}
+.failure-container-fetching {
+  background-color: #0d0d0d;
+  padding: 5%;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 10%;
+}
+.fetch-failure-image-slick {
+  height: 35px;
+}
+.fetch-failure-para {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
+.fetch-failure-try-again-btn {
+  background-color: white;
+  color: #171f46;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}

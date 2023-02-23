@@ -1,0 +1,102 @@
+* {
+  /* border: 1px solid white; */
+}
+.header-container {
+  /* height: 480px; */
+  display: flex;
+  flex-direction: column;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.801)); */
+}
+.header-loader-container {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  align-self: center;
+  width: 80%;
+  margin-top: 4%;
+  border-radius: 8px;
+}
+.header-info-text-container {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 550px;
+  margin-top: 2%;
+  margin-bottom: 45px;
+}
+.header-movie-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 45px;
+  margin: 15px 0;
+  margin-top: 25px;
+}
+.header-movie-description {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.play-btn-header {
+  padding: 12px 25px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: white;
+  margin-top: 20px;
+  color: #171f46;
+  font-weight: 600;
+  font-size: 20px;
+  align-self: flex-start;
+  border: none;
+  border-radius: 7px;
+}
+.failure-container-fetching-header {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  align-self: center;
+  width: 80%;
+  margin-top: 4%;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.fetch-failure-image-slick {
+  height: 35px;
+}
+.fetch-failure-para {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
+.fetch-failure-try-again-btn {
+  background-color: white;
+  color: #171f46;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .header-movie-heading {
+    font-size: 35px;
+    width: 100%;
+  }
+  .header-info-text-container {
+    width: 100%;
+  }
+  .header-movie-description {
+    font-size: 20px;
+    width: 80%;
+  }
+}

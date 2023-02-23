@@ -1,0 +1,90 @@
+.navbar-bg {
+  background-image: url('https://res.cloudinary.com/dds8wfxdw/image/upload/v1676920030/CCBP-mini%20projects/Movies%20website%20%28netflix%2Cprime%20clone%29/assets/Home%20page/Navbar-bg_z76pxk.svg');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 10%;
+  margin: 0;
+}
+* {
+  /* border: 1px solid white; */
+}
+.website-logo {
+  height: 45px;
+  margin: 0;
+}
+.nav-links-list-container {
+  display: flex;
+
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-links-list-item {
+  margin: 0 10px;
+  padding: 0;
+}
+.nav-link {
+  color: #adadad;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-decoration: none;
+  font-size: 22px;
+}
+.active {
+  color: white;
+  font-weight: 500;
+}
+.profile-search-list-container {
+  display: flex;
+  width: 45%;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  margin-left: auto;
+  margin: 0;
+  margin-left: auto;
+}
+.search-route-link {
+  padding: 0;
+  display: flex;
+  /* border-bottom: 1px solid rgb(196, 196, 196);
+  border-top: 1px solid rgb(196, 196, 196);
+  border-left: 1px solid rgb(196, 196, 196); */
+}
+.search-button {
+  margin: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 12px;
+}
+.search-icon {
+  height: 22px;
+  width: 22px;
+  color: #fffefe;
+  border: none;
+  outline: none;
+}
+.search-active {
+  background-color: #272626;
+  border-radius: 5px;
+}
+.search-input {
+  background-color: transparent;
+  color: #fffefe;
+  border: none;
+  outline: none;
+  width: 300px;
+  padding: 5px 15px;
+}
+.search-input-btn-container {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  display: flex;
+}

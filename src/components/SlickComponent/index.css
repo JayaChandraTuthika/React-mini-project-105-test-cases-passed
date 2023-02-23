@@ -1,0 +1,25 @@
+.main-slick-bg-container {
+  margin: 25px 5%;
+}
+.slick-item-container {
+  width: 80%;
+}
+.movie-slick-image {
+  width: 280px;
+  height: 170px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .movie-slick-image {
+    width: 80%;
+    height: 110px;
+  }
+  .slick-item-container {
+    width: 60vw;
+  }
+  .main-slick-bg-container {
+    margin: 5px 30px;
+  }
+}

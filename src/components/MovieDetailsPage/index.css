@@ -1,0 +1,116 @@
+* {
+  font-family: 'Hanken Grotesk', sans-serif;
+  /* border: 1px solid white; */
+}
+.movie-details-main-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+}
+.header-container-movie-details {
+  height: 500px;
+  /* background-color: grey; */
+  color: white;
+}
+.header-movie-details-container {
+  padding: 2% 10%;
+  max-width: 75%;
+}
+.header-title {
+  font-size: 55px;
+  font-weight: 800;
+  margin: 0;
+}
+.time-adult-year-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.header-runtime {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+.header-adult {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 2px 8px;
+  margin: 0 13px;
+}
+.header-overview {
+  font-weight: lighter;
+}
+.header-play-btn {
+  background-color: white;
+  font-weight: 600;
+  color: #171f46;
+  padding: 14px 32px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.lists-container {
+  display: flex;
+  padding: 24px 10%;
+  align-items: flex-start;
+}
+.after-heading-category-list-container {
+  width: 25%;
+  padding: 0;
+  list-style-type: none;
+}
+.list-category-heading {
+  font-size: 18px;
+  color: #94a3b8;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 12px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.list-item-after-header {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 25px;
+  margin: 2px 0;
+}
+.rating-count {
+  font-size: 15px;
+  margin: 0;
+  color: white;
+}
+.similar-movies-heading {
+  margin: 0px 10%;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+.similar-movies-list-container {
+  margin: 0;
+  padding: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.similar-movie-card {
+  width: 230px;
+  height: 150px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  transition: 0.1s all ease;
+}
+.similar-movie-card:hover {
+  border: 2px solid rgb(253, 253, 253);
+}
+.similar-movie-card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}

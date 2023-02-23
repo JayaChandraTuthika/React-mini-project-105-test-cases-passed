@@ -1,0 +1,52 @@
+* {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.not-found-bg-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.not-found-image {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+.not-found-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.not-found-heading {
+  color: white;
+  font-size: 65px;
+  font-weight: 700;
+  margin: 25px;
+}
+.not-found-para {
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+.go-home-btn {
+  background-color: white;
+  color: #171f46;
+  padding: 12px 25px;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}

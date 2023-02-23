@@ -1,0 +1,37 @@
+* {
+  /* border: 1px solid white; */
+}
+.footer-bg-container {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-icons-container {
+  display: flex;
+  align-items: center;
+}
+.footer-icon {
+  height: 35px;
+  width: 35px;
+  color: white;
+  border: none;
+  margin: 10px 25px;
+  cursor: pointer;
+}
+.contact-us-text {
+  color: white;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .contact-us-text {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .footer-icon {
+    height: 30px;
+    width: 30px;
+  }
+}

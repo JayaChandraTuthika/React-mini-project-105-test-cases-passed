@@ -1,0 +1,64 @@
+* {
+  /* border: 1px solid blue; */
+  font-family: 'roboto';
+}
+.home-bg-container {
+  min-height: 100vh;
+  padding: 0%;
+
+  background-color: #181818;
+}
+.slick-loader-container {
+  background-color: #0d0d0d;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 10%;
+  border-radius: 10px;
+}
+.slick-movies-category-heading {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 80px;
+  margin-left: 6%;
+}
+.failure-container-fetching {
+  background-color: #0d0d0d;
+  padding: 5%;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 10%;
+}
+.fetch-failure-image-slick {
+  height: 35px;
+}
+.fetch-failure-para {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
+.fetch-failure-try-again-btn {
+  background-color: white;
+  color: #171f46;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .slick-movies-category-heading {
+    font-size: 30px;
+  }
+}

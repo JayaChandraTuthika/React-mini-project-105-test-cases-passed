@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap');
+* {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.login-bg-container {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.589) 0.1%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('https://res.cloudinary.com/dds8wfxdw/image/upload/v1676911529/CCBP-mini%20projects/Movies%20website%20%28netflix%2Cprime%20clone%29/assets/Login-page/login-background_jmktp9.svg');
+
+  background-size: cover;
+  min-height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  background-image: url('https://res.cloudinary.com/dds8wfxdw/image/upload/v1676913896/CCBP-mini%20projects/Movies%20website%20%28netflix%2Cprime%20clone%29/assets/Login-page/form-background_snn8fk.svg');
+  background-size: cover;
+  border-radius: 8px;
+  color: white;
+  position: absolute;
+  width: 456px;
+  height: 440px;
+
+  top: 30%;
+  padding: 2% 3%;
+  display: flex;
+  flex-direction: column;
+}
+.login-form-heading {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.login-form-label {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 25px;
+}
+.login-form-input {
+  background: #333333;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  padding: 9px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+.login-btn {
+  background: #e50914;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  padding: 9px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.error-msg {
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
