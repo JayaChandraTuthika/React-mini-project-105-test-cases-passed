@@ -73,6 +73,7 @@ class SearchPage extends Component {
         </ul>
       )
     }
+
     return (
       <div className="failure-container-search">
         <img
